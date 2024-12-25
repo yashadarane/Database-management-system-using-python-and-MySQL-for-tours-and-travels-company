@@ -10,7 +10,7 @@ print("2. New User")
 a=int(input("Please enter 1 or 2: "))
 if a==1:
     b=input("Enter password: ")
-    if b=="123456":
+    if b==" ":
         while True:
             print("Welcome Admin! \n What do you want to do today?")
             print("1. View Database\n2. Change Database Entries\n3. Add Entries\n4. Exit")
